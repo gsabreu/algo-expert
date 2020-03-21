@@ -12,7 +12,6 @@ public class MoveElementToEnd{
 			}
 			if(array.get(i) == n) {
 				swap(i, j, array);
-				
 			}
 			i++;
 		}
