@@ -17,7 +17,7 @@ public class MoveElementToEnd{
 		}
 		return array;
 	}
-	
+    
 	public static void swap(int i, int j, List<Integer> array){
 		int temp = array.get(j);
 		array.set(j, array.get(i));
